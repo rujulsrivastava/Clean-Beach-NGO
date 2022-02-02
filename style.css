@@ -1,0 +1,270 @@
+body
+{  
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   font-family: Intel;
+   font-size: 13px; 
+   color: #061c37;
+   background: #014d5d url(marinabeachsunset.jfif) no-repeat center center fixed; 
+   -webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover;
+   background-size: cover; 
+}
+* { 
+   opacity: 0.97;
+   margin: 0 auto; 
+}
+
+ #page {
+   padding: 0 5px;
+   display: block;
+   height: auto;
+   position: relative;
+   overflow: hidden;
+   width: 660px; 
+} 
+
+ .topNavigationLink {
+   text-align: center;
+   position: relative;
+   margin-top: 30px;
+   font-size: 18px;
+   width: 132px;
+   height: 35px;
+   line-height: 35px;
+   float: left;
+   color: #ceeaee;
+   font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif; 
+} 
+
+ .topNavigationLink a {
+   text-decoration: none;
+   text-shadow: 1px 1px #000;
+   color: #cde2fc; 
+} 
+
+ .current a, .topNavigationLink a:hover {
+   color: #0c61c9;
+   text-shadow: 0 0;
+   transition: 0.2s;
+   display: block;
+   width: 132px;
+   height: 35px;
+   line-height: 35px;
+   background-image: url(../images/tab.png); 
+} 
+
+#mainPicture {  
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 670px;
+  height: 345px;
+  background-color: #ffffff; 
+} 
+
+#mainPicture #picture1 {    
+  position: relative;    
+  width: 650px;    
+  height: 325px;   
+  top: 10px;   
+  background-image: url(marinabeach1.jpg);    
+  background-repeat: no-repeat; 
+} 
+
+ #mainPicture #picture2 {   
+   position: relative;    
+   width: 650px;    
+   height: 325px;    
+   top: 10px;    
+   background-image: url(marinabeach2.jpg);   
+   background-repeat: no-repeat; 
+}
+
+ #mainPicture #picture3 {    
+   position: relative;    
+   width: 650px;    
+   height: 325px;   
+   top: 10px;    
+   background-image: url(marinabeach3.jpg);    
+   background-repeat: no-repeat; 
+} 
+
+ #mainPicture #picture4 {    
+   position: relative;    
+   width: 650px;    
+   height: 325px;    
+   top: 10px;    
+   background-image: url(marinabeach4.jpg);    
+   background-repeat: no-repeat; 
+} 
+
+#headerTitle {    
+  position: relative;    
+  text-align: center;    
+  top: 20px;   
+  font-size: 50px;   
+  text-shadow: 1px 1px #000;   
+  color: #ffffff;   
+  font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif; 
+} 
+
+#headerSubtext {   
+  color: slategray;  
+  text-shadow: 2px 2px #ffffff; 
+  font-size: 25px;
+  margin-bottom: 0px; 
+  padding-top: 18px; 
+  margin-left: 15px; 
+  margin-top: 15px; 
+} 
+
+ .contentBox {    
+   margin: auto;    
+   overflow: hidden;    
+   width: 670px;    
+   border-radius: 5px;   
+   padding-bottom: 25px;    
+   height: auto;    
+   background-color: #ffffff; 
+} 
+
+ .contentBox .innerBox {    
+   position: relative;    
+   margin-top: 10px;    
+   width: 650px;   
+   top: -3px;    
+   height: auto;    
+   text-align: justify;    
+   background-image: url(../images/content_back.png);    
+   background-repeat: repeat-x;    
+   padding-bottom: 25px; 
+} 
+
+.contentTitle {    
+  color: #0c61c9;    
+  font-size: 19px;    
+  padding-right: 10px;    
+  margin-bottom: 0px;    
+  padding-top: 18px;    
+  margin-left: 15px;    
+  margin-top: 15px; 
+} 
+
+.contentText {    
+  font-size: 13px;    
+  line-height: 24px;    
+  margin-left: 13px;    
+  margin-right: 13px; 
+} 
+
+td{   
+  padding: 5px;
+}
+
+#expand{  
+  margin-left: 50px;   
+  padding: 10px;   
+  text-align: right; } 
+  
+  
+.eventHead { 
+  font-size: 24px; 
+}
+
+.events li {   
+  list-style-type: none;   
+  font-size: 18px; 
+  margin: 5px;    
+  background: white; 
+ } 
+
+.eventDesc{    
+  display: none; 
+} 
+
+.imageContainer {    
+  height: 325px;   
+  width: 620px;    
+  z-index: 5; 
+} 
+
+input.ng-invalid {    
+  border-color: red; 
+} 
+
+.contact-footer{    
+  width: 40%;   
+  margin: 2.5% 4%;    
+  float: left; 
+} 
+ 
+.footer {    
+  margin-top: 10px;    
+  border: 5px solid #fff;    
+  border-radius: 5px;   
+  background-color: #fff;    
+  display: block;    
+  height: auto;    
+  position: relative;    
+  overflow: hidden;    
+  background-image: url(../images/content_back.png);    
+  background-repeat: repeat-x;    
+  width: 660px; 
+} 
+ 
+.bottomNavigationLink {    
+  text-align: center;    
+  position: relative;    
+  margin-top: 0;   
+  font-size: 16px;   
+  margin-left: -10px;   
+  width: 142px;   
+  height: 35px;   
+  line-height: 35px;   
+  float: left;   
+  color: #ceeaee;   
+  font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif; 
+} 
+
+.bottomNavigationLink a {   
+  color: #0c61c9;   
+  display: block;   
+  width: 142px;    
+  height: 35px;    
+  line-height: 35px;    
+  background-image: url(../images/tab.png);    
+  text-decoration: none;    
+  text-shadow: 1px 1px #000; 
+}
+
+.footerContentTitle {    
+  font-size: 19px;    
+  margin-bottom: 0px;    
+  padding-top: 18px;    
+  margin-left: 15px;    
+  margin-top: 15px;    
+  text-align: center;    
+  color: #000; 
+} 
+
+#footer {   
+  width: 670px;    
+  height: 16px;    
+  margin-top: 10px;    
+  background: url(../images/footer.png) no-repeat;    
+  text-align: center;    
+  font-size: 11px;    
+  font-family: Arial, Helvetica, sans-serif;    
+  color: #fff;    
+  border-radius: 5px;    
+  text-shadow: 1px 1px #000;
+  padding-top: 5px; 
+}
+
+#footer a {    
+  text-decoration: none;    
+  font-size: 12px;    
+  color: #fff; 
+} 

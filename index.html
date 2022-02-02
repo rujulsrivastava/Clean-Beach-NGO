@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clean Beach Please</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="author" content="joshijai2, abhinabamitra19">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+</head>
+
+<body onload="show()">
+    <div id="page">
+        <div class="topNavigationLink current"><a href="index.html">Home</a></div>
+        <div class="topNavigationLink"><a href="blog.html">Blogs</a></div>
+        <div class="topNavigationLink"><a href="getinvolved.html">Get Involved</a></div>
+        <div class="topNavigationLink"><a href="events.html">Events</a></div>
+        <div class="topNavigationLink"><a href="about.html">About Us</a></div>
+    </div>
+    <div id="mainPicture">
+        <div class="picture" id="picture1">
+            <div id="headerTitle">Clean beach please!!</div>
+        </div>
+        <div class="picture" id="picture2">
+            <div id="headerTitle">Clean beach please!!</div>
+        </div>
+        <div class="picture" id="picture3">
+            <div id="headerTitle">Clean beach please!!</div>
+        </div>
+        <div class="picture" id="picture4">
+            <div id="headerTitle">Clean beach please!!</div>
+        </div>
+    </div>
+    <div class="contentBox">
+        <div class="innerBox">
+            <div id="headerSubtext">A Non-profit initiative to clean Marina beach</div>
+            <div class="contentTitle">"We clean!"</div>
+            <div class="contentText">
+                <p>We are a non-profit organization where we make a change and make little changes to decrease pollution
+                    everyday.</p>
+                <p>Marina Beach is a natural urban beach in Chennai, Tamil Nadu, India, along the Bay of Bengal.
+                    The beach runs from near Fort St. George in the north to Foreshore
+                    Estate in the south, a distance of 6.0 km
+                    (3.7 mi), making it the longest natural urban beach in the country.The Marina
+                    is primarily sandy, unlike the short, rocky formations that make up the Juhu Beach in Mumbai. The
+                    average width of the beach
+                    is 300 m (980 ft) and the width at the widest stretch is 437 m (1,434 ft). Bathing and swimming at
+                    the Marina Beach are
+                    legally prohibited because of the dangers,
+                    <span style="color:red;">as currently of the huge amount of marine pollution</span> and as the
+                    undercurrent is very turbulent. It is one of the most crowded beaches in the country and attracts
+                    about 30,000 visitors a day during weekdays and 50,000
+                    visitors a day during the weekends and on holidays.During summer months, about 15,000 to 20,000
+                    people visit the beach daily.
+                <p style="color:red;">Since it is a honeycomb for tourist bees, this place is filled with huge amount of
+                    pollution and we are taking some initiative to clean the Marina Beach. Come join us and be a part of
+                    this noble
+                    initiative.</p>
+            </div>
+            <div class="contentTitle">“You can make a difference by taking part in just 1 event.”</div>
+            <div class="contentText">
+                <p>Participate in any of the events you wish and earn goodies, but get the better satisfaction of making
+                    the earth a more cleaner place to live in.</p>
+                <p> Participate by clicking here <a href="events.html">Click here!</a></p>
+            </div>
+            <div class="contentTitle">Upcoming Events</div>
+            <div class="contentText">
+                <div class="contentText events">
+                    <ul>
+                        <li>21.10.21 - Weekly Clean Up.</li>
+                        <li>28.10.21 - Weekly Clean Up.</li>
+                        <li>14.11.21 - Clean Up campaign funded by VIT, Vellore (<a href="getinvolved.html#signup">Signup</a>).</li>
+                    </ul>
+                    <p>For more information about events...(<a href="events.html">Click
+                            Here!</a>).</p>
+                </div>
+            </div>
+            <div class="contentTitle">Support Us..</div>
+            <div class="contentText">
+                <br>
+                <p>
+                <h2>YOU CAN DONATE TOO!!</h2>
+                </p>
+                <p><a href="payment.html"><u>(Click here!)</u></a></p>
+            </div>
+        </div>
+    </div>
+    <div class="innerBox footer">
+        <div id="page">
+            <div class="bottomNavigationLink"><a href="about.html#emailus">Email
+                    Us</a></div>
+            <div class="bottomNavigationLink"><a href="about.html#contact">Contact
+                    Us</a></div>
+            <div class="bottomNavigationLink"><a href="getinvolved.html#signup">Sign up</a></div>
+            <div class="bottomNavigationLink"><a href="getinvolved.html#donate">Donations</a></div>
+            <div class="bottomNavigationLink"><a href="about.html">About Us</a></div>
+        </div>
+        <div class="footerContentTitle">Join our team of Clean beach members and supporters.</div>
+    </div>
+    <div id="footer">
+        Web development by <a target="_blank" href="https://linkedin.com/in/">RS</a>, <a target="_blank"
+            href="https://linkedin.com/in/">RR</a> and <a target="_blank" href="https://linkedin.com/in/">DV</a>
+    </div>
+    <script>      var index = 0; function show() {
+            var slides = document.getElementsByClassName("picture"); for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[index].style.display = "block";
+            index++; if (index == slides.length) {
+                index = 0;
+            } setTimeout(show, 5000);
+        }
+    </script>
+</body>
+
+</html>
